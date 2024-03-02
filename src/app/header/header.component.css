@@ -1,0 +1,37 @@
+.btns{
+    width: 35%;
+    justify-content: flex-end;
+}
+
+#btn1{
+    border:none;
+    border-radius: 44px;
+    font-weight: 550;
+    background-color: #ffffff;
+    width: max-content;
+    padding: 0.7vw 1rem;
+}
+#btn2{
+    border: 1.5px solid #f53838;
+    border-radius: 44px;
+    font-weight: 550;
+    color: #f53838;
+    background-color: #ffffff;
+    padding: 0.5vw 1rem;
+    transition: .2s all ease-in;
+
+}
+#btn2:hover{
+    background-color: #f53838;
+    color: white;
+}
+.nav-link{
+    color: grey;
+    font-size: 1.1rem;
+    transition: .2s all ease-in;
+}
+
+.nav-link:hover{
+    color: #f53838;
+    
+}

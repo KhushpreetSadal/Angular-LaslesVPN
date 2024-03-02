@@ -1,0 +1,83 @@
+
+#testimoniols .carousal{
+    width: auto;
+    margin: auto;
+    height:22rem ;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+#testimoniols .content h5{
+    color: #76787a;
+}
+
+#testimoniols .section{
+    background-color: white;
+    width: 40%;
+    height: 95%;
+    margin: 1rem;
+    position: absolute;
+    border: #76787a 2px solid;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: .4s all ease-in;
+   
+}
+#testimoniols .section .users{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#testimoniols #customer1{
+    left: 90%;
+}
+#testimoniols #customer2{
+    left: 45%;
+}
+#testimoniols #customer3{
+    left: 0%;
+}
+#testimoniols .section .image{
+    width: 4rem;
+    height: 4rem;
+}
+#testimoniols .btns{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+}
+#testimoniols .btns img{
+    width: 2rem;
+}
+
+#testimoniols .btns .left{
+
+    justify-content: center;
+    align-items: center;
+}
+
+#testimoniols .btns .left .leftbtns{
+
+    height: 1rem;
+    width: 1rem;
+    margin: .2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #dee0e0;
+}
+
+#testimoniols  .button1{
+    background-color: #f53838;
+    border: none;
+    border-radius: 50%;
+    padding: .5rem .4em;
+
+}
+#testimoniols  .button2{
+    background-color: white;
+    border: 2px solid #f53838 ;
+    border-radius: 50%;
+    padding: .5rem 0.3em;
+}

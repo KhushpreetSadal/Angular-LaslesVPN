@@ -1,0 +1,61 @@
+#pricing{
+    margin-top: 5rem;
+
+}
+#pricing h5{
+    color: #76787a;
+
+}
+
+#pricing ul{
+list-style: none;
+margin-left: 0px;
+padding-left: 0px;
+
+}
+#pricing .section{
+    transition: 1s ease-in all;
+}
+
+#pricing ul li{
+    margin:.5rem;
+}
+
+#pricing  ul img{
+    margin-right:2rem;
+    width: 1rem;
+}
+#pricing .btn{
+    border: none;
+    outline: none;
+}
+#pricing .button{
+    background-color: white;
+    margin: 1rem auto;
+    border: 2px solid #f53838;
+    color: #f53838;
+    border-radius:10rem;
+    padding: 1rem 5rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    width: fit-content;
+    transition: .2s all ease-in;
+
+}
+#pricing .button:hover{
+    color: white;
+    background-color: #f53838;
+}
+
+#pricing .card-body{
+    height: 50rem;
+  
+}
+
+#pricing .margin1{
+    margin-top: 4rem;
+}
+#pricing .margin2{
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+}

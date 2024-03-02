@@ -1,0 +1,23 @@
+
+#location{
+    margin-top: 8rem;
+}
+#location h5{
+    color: #76787a;
+
+}
+#location .sponsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#location .sponsers img{
+    width: 10rem;
+    transition: .2s all ease-in;
+}
+
+#location .sponsers img:hover{
+    filter: brightness(-10%);
+}

@@ -1,0 +1,90 @@
+
+<section id="testimoniolspage" (window:resize)="change(0)">
+    <div id="testimoniols" class="container mt-5 mb-5">
+      <div class="content">
+        <h1 class="text-center pricing-table-title">Trusted by Thousands of<br> Happy Customer</h1>
+        <h5 class="text-center pricing-table-subtitle mb-5 pb-5 mt-5">These are the stories of our customers who have
+          joined us with great pleasure when using this crazy feature</h5>
+      </div>
+
+
+      <div class="carousal">
+
+        <div id="customer1" class="section mt-3 ">
+          <div class="users">
+            <img class="image" src="../../assets/images/customer-1.png" alt="">
+            <div class="detail m-3">
+              <h4>Viezh Robert</h4>
+              <p>Warsaw, Poland</p>
+            </div>
+            <div class="stars">
+              <h4>4.5</h4>
+            </div>
+          </div>
+          <div class="reviews mt-3">
+            <p>
+              “Wow... I am very happy to use this VPN, it turned out to be more
+              than my expectations and so far there have been no problems.
+              LaslesVPN always the best”.
+            </p>
+          </div>
+        </div>
+
+        <div id="customer2" class="section mt-3 ">
+          <div class="users">
+            <img class="image" src="../../assets/images/customer-2.png" alt="">
+            <div class="detail m-3">
+              <h4>Yessica Christy</h4>
+              <p>Shanix, China</p>
+            </div>
+            <div class="stars">
+              <h4>4.5</h4>
+            </div>
+          </div>
+          <div class="reviews mt-3">
+            <p>
+
+              “I like it because I like to travel far and still can connect with
+              high speed.”.
+
+            </p>
+          </div>
+        </div>
+
+        <div id="customer3" class="section mt-3 ">
+          <div class="users">
+            <img class="image" src="../../assets/images/customer-3.png" alt="">
+            <div class="detail m-3">
+              <h4>Kim Young Jou</h4>
+              <p>Seoul, North Korea</p>
+            </div>
+            <div class="stars">
+              <h4>4.5</h4>
+            </div>
+          </div>
+          <div class="reviews mt-3">
+            <p>
+              “This is very unusual for my business that currently requires a
+              virtual private network that has high security.”
+            </p>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="btns container d-flex justify-content-between mt-3">
+        <div class="left d-flex mx-3">
+          <button id="selector1" class="leftbtns" (click)="change(0)"></button>
+          <button id="selector2" class="leftbtns" (click)="change(1)"></button>
+          <button id="selector3" class="leftbtns" (click)="change(2)"></button>
+        </div>
+        <div class="right d-flex align-content-center justify-content-center">
+          <button (click)="previous()" class="button2 m-2"><img src="../../assets/images/Arrow-red.png" alt=""></button>
+          <button (click)="next()" class="button1 m-2"><img src="./../assets/images/arrow-white.png" alt=""></button>
+        </div>
+
+      </div>
+    </div>
+
+  </section>

@@ -1,0 +1,26 @@
+
+#about p{
+    font-size: 1.1rem;
+    color: #76787a;
+}
+#about .contents{
+    margin-left: 5rem;
+}
+#about .contents ul{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0%;
+    line-height:3rem;
+    
+
+}
+#about .contents ul li{
+    color: #76787a;
+    align-items: center;
+
+}
+#about .contents ul img{
+    margin-right: .5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
